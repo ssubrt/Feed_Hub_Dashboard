@@ -58,7 +58,7 @@ const login = async (email: string, password: string) => {
   setState(prev => ({ ...prev, isLoading: true, error: null }));
 
   try {
-    const response = await fetch(`http://localhost:5000/api/auth/login`, {
+    const response = await fetch(`https://feed-hub-dashboard.onrender.com/api/auth/login`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -114,7 +114,7 @@ const register = async (username: string, email: string, password: string) => {
   setState(prev => ({ ...prev, isLoading: true, error: null }));
 
   try {
-    const response = await fetch(`http://localhost:5000/api/auth/register`, {
+    const response = await fetch(`https://feed-hub-dashboard.onrender.com/api/auth/register`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
