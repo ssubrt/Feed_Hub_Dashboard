@@ -3,7 +3,6 @@
 
 A modern, responsive dashboard application that allows users to manage and interact with aggregated content from various social media platforms.
 
-![FeedHub Dashboard](https://via.placeholder.com/800x400?text=FeedHub+Dashboard)
 
 ## 📋 Overview
 
@@ -134,10 +133,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📞 Contact
 
-Project Link: [https://github.com/yourusername/feed-hub-dashboard](https://github.com/yourusername/feed-hub-dashboard)
-
----
-
-Built with ❤️ using [Lovable](https://lovable.dev)
